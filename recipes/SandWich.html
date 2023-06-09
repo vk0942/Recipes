@@ -6,29 +6,42 @@
     <title>Document</title>
     <style>
         body{
-            background-color: darkblue;
+            background-color: rgb(178, 178, 235);
+            text-align:center;
         }
         .--back{
+            font-size:larger;
             margin-top:0px;
         }
         .sandwich{
-            width:30%;
-            height:30%;
+            width:500px;
+            height:300px;
             align-items:center;
+        }
+        h4{
+            text-align: left;
+        }
+        .desc{
+            text-align: left;
+        }
+        .desc.desc2{
+            color:rgb(107, 30, 2);
         }
     </style>
 </head>
 <body>
     
-    <h1>SAND WICH</h1>
+    <h1><em>SAND WICH</em></h1>
    
     <img class = "sandwich" src = "./sandwich.jpeg">
     <h4>Description</h4>
+    <div class="desc desc2">
     <p><strong>Sand Wich</strong> 
         <p>it  comes to life with a selection of fresh vegetables. Crisp lettuce leaves, juicy sliced tomatoes, crunchy cucumbers, vibrant bell peppers, and thinly sliced onions add texture and a burst of flavors. You can customize your veg sandwich with your favorite vegetables or use a mix of colorful options for visual appeal.</p>
+    </div>
     <br><br>
-    <h3><em>INGRIDIENTS</em></h3>
-    <ul>
+    <h4><em>INGRIDIENTS</em></h4>
+    <ul class="desc">
         <li>Bread</li>
         <li>Spreads and Sauces</li>
         <li>Salt</li>
@@ -38,8 +51,8 @@
       
 
     </ul>
-    <h3><em>Steps</em></h3>
-    <ol>
+    <h4><em>Steps</em></h4>
+    <ol class="desc">
         
         <li>Gather your ingredients:
             <ul><br>
@@ -78,6 +91,6 @@
 
     </ol>
     <em>ENJOY!!!</em><br><br>
-    <a class="--back" href="../index.html"> <--back</a>
+    <h1><a class="--back" href="../index.html"> <--back</a></h1>
 </body>
 </html>
